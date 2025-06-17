@@ -1,0 +1,36 @@
+@charset "utf-08";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    background-color: black;
+
+    & nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 13%;
+        padding: 0px 5%;
+        background-color: white;
+
+        & #menu{
+            width: 400px;
+            & ul{
+                display: flex;
+                justify-content: space-evenly;
+            }
+            & ul > li{
+                list-style: none;
+            }
+        }
+    }
+}
+
+main{
+    height: 100vh;
+    background-color: lightblue;
+}
