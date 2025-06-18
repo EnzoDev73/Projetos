@@ -76,4 +76,20 @@ header{
         text-align: center;
         padding-top: 50px;
     }
+
+    & #work{
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        & .listWork{
+            width: 40%;
+        }
+
+        & h2{
+            margin-top: 60px;
+        }
+    }
+    
 }
