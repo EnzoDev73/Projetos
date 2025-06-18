@@ -5,9 +5,12 @@
     padding: 0;
 }
 
+body{
+    background-color: white;
+}
+
 header{
     height: 100vh;
-    background-color: black;
 
     & nav{
         display: flex;
@@ -15,7 +18,7 @@ header{
         align-items: center;
         height: 13%;
         padding: 0px 5%;
-        background-color: white;
+        background-color: black;
 
         & #menu{
             width: 400px;
@@ -24,13 +27,53 @@ header{
                 justify-content: space-evenly;
             }
             & ul > li{
+                color: white;
                 list-style: none;
             }
         }
     }
 }
 
-main{
-    height: 100vh;
-    background-color: lightblue;
+#page1{
+    height: 90vh;
+    padding: 0 10%;
+    background-color: black;
+
+    & #texto1{
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        color: white;
+        border-bottom: 1px solid gray;
+         & p{
+        width: 50%;
+        }
+    }
+
+    & #service{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        
+        & #site{
+            height: 350px;
+            width: 250px;
+            background-color: lightgray;
+        }
+    }
+   
+    
+}
+
+#page2{
+    height: 90vh;
+    padding: 0 10%;
+
+    & h1{
+        text-align: center;
+        padding-top: 50px;
+    }
 }
